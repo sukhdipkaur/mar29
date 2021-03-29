@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zk>
+	<config-name>mvn.artifact</config-name><!-- used to resolve dependency -->
+	<!--
+	<depends>zk</depends>
+	-->
+	
+  	<version>
+		<version-class>mvn.group.Version</version-class>
+		<version-uid>1.0-SNAPSHOT</version-uid>
+	</version>
+
+	<!--
+	<listener>
+		<listener-class>mvn.group.</listener-class>
+	</listener>
+	
+	<library-property>
+		<name></name>
+		<value>mvn.group.</value>
+	</library-property>
+	-->
+</zk>
